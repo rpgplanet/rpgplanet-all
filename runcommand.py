@@ -1,15 +1,14 @@
 
-#META = (
-#)
+META = (
+)
 
 LIBS = (
-    'rpghrac',
-    'rpgplanet',
 )
 
 PROJS  = (
     'rpghrac',
     'rpgplanet',
+    'rpgcommon',
 )
 
 UTILS = (
