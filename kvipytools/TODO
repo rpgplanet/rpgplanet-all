@@ -1,0 +1,5 @@
+
+ * remove shell calls from rename.py
+
+ * there can be not only shell calls but python callbacks as well
+

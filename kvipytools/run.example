@@ -1,0 +1,51 @@
+
+you can either pass arguments directly::
+
+  ./scripts/run 'git checkout master' ./first-repo/ /tmp/second-repo/ ~/third-repo/
+
+or define some replacements into runcommand.py,
+which will be evaluated. it is found in actual direcotry only.
+
+  # beginnig of runcommand.py
+  import os.path
+
+  MY_DIRS = (
+      './first-repo',
+      '/tmp/second-repo',
+      os.path.expanduser('~/third-repo/'),
+  )
+
+  my_command = 'git checkout master'
+
+  # end of runcommand.py
+
+and than call::
+
+  ./scripts/run my_command MY_DIRS
+
+you can define as many variables as you want,
+and there are two special names _cmd and _ALL,
+which are found if no params are given
+
+  # beginnig of runcommand.py
+  import os.path
+
+  MY_DIRS = (
+      './first-repo',
+      '/tmp/second-repo',
+      os.path('~/third-repo/'),
+  )
+
+  my_command = 'git checkout master'
+
+  _ALL = MY_DIRS
+  _cmd = my_command
+
+  # end of runcommand.py
+
+if you now call::
+
+  ./scripts/run
+
+now all three script calls are equivalent
+
