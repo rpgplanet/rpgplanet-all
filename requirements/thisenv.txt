@@ -1,4 +1,4 @@
 
 
--e git+http://github.com/rpgplanet/rpgplanet.git
+-e git+http://github.com/rpgplanet/rpgplanet.git#egg=rpgplanet
 
