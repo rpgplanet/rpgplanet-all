@@ -1,5 +1,6 @@
 
 META = (
+     'rpgplanet-meta',
 )
 
 LIBS = (
