@@ -10,6 +10,7 @@ PROJS  = (
     'rpghrac',
     'rpgplanet',
     'rpgcommon',
+    'metaplayer',
 )
 
 UTILS = (

@@ -2,5 +2,6 @@
 -e git+http://github.com/rpgplanet/rpgcommon.git#egg=rpgcommon
 -e git+http://github.com/rpgplanet/rpgplanet.git#egg=rpgplanet
 -e git+http://github.com/rpgplanet/rpghrac.git#egg=rpghrac
+-e git+http://github.com/rpgplanet/metaplayer.git#egg=metaplayer
 -e git+http://github.com/rpgplanet/rpgplanet-meta.git#egg=rpgplanet_meta
 
