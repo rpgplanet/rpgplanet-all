@@ -11,6 +11,7 @@ PROJS  = (
     'rpgplanet',
     'rpgcommon',
     'metaplayer',
+    'rpgscheduler',
 )
 
 UTILS = (
