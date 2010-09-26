@@ -92,8 +92,7 @@ def _test():
     nose.runmodule('__main__', plugins=[Doctest(),])
     '''
     import doctest
-    x = doctest.testmod()
-    return not(x.failed)
+    return not(doctest.testmod()[0])
 
 
 if __name__ == '__main__':
