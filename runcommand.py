@@ -4,6 +4,7 @@ META = (
 )
 
 LIBS = (
+    'esus',
 )
 
 PROJS  = (
