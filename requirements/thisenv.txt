@@ -1,3 +1,4 @@
+-e git+http://github.com/rpgplanet/esus.git#egg=esus
 
 -e git+http://github.com/rpgplanet/rpgcommon.git#egg=rpgcommon
 -e git+http://github.com/rpgplanet/rpgplanet.git#egg=rpgplanet
